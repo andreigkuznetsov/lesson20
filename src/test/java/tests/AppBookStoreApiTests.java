@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.hasItem;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static specs.RestAssuredSpec.*;
 
-public class BookStoreApiTests {
+public class AppBookStoreApiTests {
 
     public static AppConfig webConfig = ConfigFactory.create(AppConfig.class, System.getProperties());
 
